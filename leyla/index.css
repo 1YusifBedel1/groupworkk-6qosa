@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Sora", sans-serif;
+}
+footer{
+    
+    background-image: url(https://wellconcept.co/html/energix/assets/img/footer.jpg);
+   
+
+    width: 100%;
+    
+    background-size: cover;
+
+}
+.footer-container{
+    background-color: #17195a;
+    opacity: 0.8;
+   
+}
+img{
+    width: 80px;
+    
+}
+.logo ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.footer-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+}
+.subscribe-newsletter{
+    display: flex;
+}
+    .mediumcard{
+        border: 1px ;
+        height: 90px;
+        padding: 20px;
+        width: 440px;
+        font-size: 20px;
+    }
+    .rightcard{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+.subscribe-newsletter{
+    display: flex;
+    flex-direction: column;
+
+}
+.lefttcard{
+    margin-top: 50px;
+}
+.subscribe-newsletter form input{
+width: 400px;
+background: transparent;
+border: 2px solid white;
+border-radius: 30px;
+padding: 15px;
+margin-top: 10px;
+}
+.subscribe-newsletter form button i{
+    color: white;
+    padding: 10px;
+}
+.subscribe-newsletter form button{
+    border-radius: 50%;
+    background-color: orangered;
+}
+.leftbutton{
+    border: 1px solid green;
+    width: 400px;
+    background-color: green;
+    color: white;
+    border-radius: 70px;
+    padding: 15px;
+
+}
+.iconn ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 5px;
+   
+}
+.iconn ul{
+    display: flex;
+    gap: 15px;
+}
+.iconn ul li a i{
+    color: white;
+    font-size: 20px;
+}
+.iconn ul li p{
+    font-size: 20px;
+}
+
+.fa-mobile-screen-button{
+    padding: 25px;
+    background-color: orangered;
+border-radius: 50%;
+font-size: 20px;
+}
+.mediumbutton{
+    border: 1px solid green;
+    width: 400px;
+    background-color: green;
+    color: white;
+    border-radius: 70px;
+    padding: 15px;
+}
+.fa-location-dot{
+    padding: 25px;
+    background-color: orangered;
+border-radius: 50%;
+font-size: 20px;
+}
+.rightbutton{
+    border: 1px solid green;
+    width: 400px;
+    background-color: green;
+    color: white;
+    border-radius: 70px;
+    padding: 15px;
+}
+.fa-envelope{
+    padding: 25px;
+    background-color: orangered;
+border-radius: 50%;
+font-size: 20px; 
+}
+.buttoncard{
+    display: flex;
+    gap: 60px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.leftbutton{
+    display: flex;
+} 
+.paragraphone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 17px;
+    gap: 5px
+  
+}
+
+.paragraphone a p{
+    color: white;
+}
+
+.mediumbutton{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.rightbutton{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-end{
+    background-color: #17195a;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    padding: 60px;
+}
+.rightdiv ul li a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.rightdiv ul{
+    display: flex;
+    gap: 20px;
+}
+
+.rightdiv ul li a:hover{
+    transition: 0.5s;
+    color: orangered;
+}
+.iconn ul li:hover{
+   
+    transition: 0.5S;
+    color: orangered;
+}
